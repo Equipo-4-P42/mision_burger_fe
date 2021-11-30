@@ -3,6 +3,7 @@ import App from './App.vue'
 import Login from './components/Login.vue'
 import SingUp from './components/SingUp.vue'
 import Cards from './components/Cards.vue'
+import Reservation from './components/Reservation.vue'
 
 const routes = [
   {
@@ -24,6 +25,11 @@ const routes = [
     path:'/user/signUp',
     name:'singUp',
     component: SingUp
+  },
+  {
+    path:'/user/reservation',
+    name:'reservation',
+    component: Reservation
   }
   
 ];
