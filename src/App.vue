@@ -12,6 +12,7 @@
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import Cards from "./components/Cards.vue";
+import Delivery from "./components/Delivery.vue"
 
 export default {
   name: "App",
@@ -23,6 +24,7 @@ export default {
     Header,
     Footer,
     Cards,
+    Delivery,
   },
 
   methods: {},
