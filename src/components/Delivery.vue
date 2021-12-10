@@ -18,7 +18,9 @@
         </div>
     </div>
     <div class="container-button">
-        <button id="myBtn" @click="openModal()">Open Modal</button>
+        <button class="float" id="myBtn" @click="openModal()">
+        </button>
+
     </div>
 
     <div id="myModal" class="modal">
@@ -182,7 +184,24 @@ img {
     margin-bottom: 20px;
 }
 
-/* The Modal (background) */
+/*
+Floating button
+*/
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#9c2713;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+}
+
+/* 
+The Modal (background) 
+*/
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
